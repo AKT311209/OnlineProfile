@@ -66,6 +66,7 @@ export interface Skill {
   name: string;
   level: number;
   max?: number;
+  color?: string;
 }
 
 export interface SkillGroup {

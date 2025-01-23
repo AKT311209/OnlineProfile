@@ -7,9 +7,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -42,8 +39,8 @@ import FacebookIcon from '../components/Icon/FacebookIcon';
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Tran Anh Khoi\'s Portfolio',
+  description: "Tran Anh Khoi's personal portfolio website. ",
 };
 
 /**
@@ -108,10 +105,12 @@ export const skills: SkillGroup[] = [
       {
         name: 'Vietnamese',
         level: 10,
+        color: 'bg-green-400',
       },
       {
         name: 'English',
         level: 8,
+        color: 'bg-blue-400',
       },
     ],
   },
@@ -121,14 +120,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Python',
         level: 8,
+        color: 'bg-blue-400',
       },
       {
         name: 'JavaScript',
         level: 7,
+        color: 'bg-orange-400',
       },
       {
         name: 'C++',
         level: 8,
+        color: 'bg-blue-400',
       },
     ],
   },
@@ -138,14 +140,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Data structures',
         level: 5,
+        color: 'bg-orange-400',
       },
       {
         name: 'Algorithms',
         level: 6,
+        color: 'bg-orange-400',
       },
       {
         name: 'Problem solving',
         level: 6,
+        color: 'bg-orange-400',
       },
     ],
   },
@@ -155,22 +160,25 @@ export const skills: SkillGroup[] = [
       {
         name: 'Communication',
         level: 8,
+        color: 'bg-blue-400',
       },
       {
         name: 'Teamwork',
         level: 9,
+        color: 'bg-green-400',
       },
       {
         name: 'Self-learning',
         level: 8,
+        color: 'bg-blue-400',
       },
       {
         name: 'Time management',
         level: 8,
+        color: 'bg-blue-400',
       },
-
     ],
-  }
+  },
 ];
 
 /**
