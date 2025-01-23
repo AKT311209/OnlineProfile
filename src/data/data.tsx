@@ -71,9 +71,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      As a highly <strong className="text-stone-100">motivated</strong> and <strong className="text-stone-100">driven</strong> student, I am dedicated to leveraging <strong className="text-stone-100">technology</strong> to make a positive <strong className="text-stone-100">impact</strong> on the world. I am committed to <strong className="text-stone-100">continuous learning</strong> and actively pursue personal projects that align with my passions to further this objective.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -150,8 +148,29 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
     ],
-
   },
+  {
+    name: 'Life skills',
+    skills: [
+      {
+        name: 'Communication',
+        level: 8,
+      },
+      {
+        name: 'Teamwork',
+        level: 9,
+      },
+      {
+        name: 'Self-learning',
+        level: 8,
+      },
+      {
+        name: 'Time management',
+        level: 8,
+      },
+
+    ],
+  }
 ];
 
 /**
