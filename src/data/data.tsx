@@ -123,7 +123,7 @@ export const skills: SkillGroup[] = [
         color: 'bg-blue-400',
       },
       {
-        name: 'JavaScript',
+        name: 'JavaScript / TypeScript',
         level: 7,
         color: 'bg-orange-400',
       },
@@ -159,8 +159,8 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Communication',
-        level: 8,
-        color: 'bg-blue-400',
+        level: 7,
+        color: 'bg-orange-400',
       },
       {
         name: 'Teamwork',
@@ -174,8 +174,8 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Time management',
-        level: 8,
-        color: 'bg-blue-400',
+        level: 7,
+        color: 'bg-orange-400',
       },
     ],
   },
