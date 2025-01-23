@@ -39,6 +39,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import FacebookIcon from '../components/Icon/FacebookIcon';
 
 /**
  * Page meta data
@@ -69,7 +70,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Hello, I'm Tran Anh Khoi.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -104,16 +105,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Placeholder text about yourself. This is a good spot to talk about your background, experience, and what you're looking to do next. You can also mention some of your hobbies and interests here.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon},
+    {label: 'DOB', text: '31-12-2009', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Vietnam', Icon: FlagIcon},
+    {label: 'Interests', text: 'Running, Swimming, Coding', Icon: SparklesIcon},
+    {label: 'Study', text: 'Nguyen Hue High School', Icon: AcademicCapIcon},
   ],
 };
 
@@ -125,69 +123,49 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Vietnamese',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming languages',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'Python',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'JavaScript',
+        level: 7,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'C++',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Competitive programming',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Data structures',
+        level: 5,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Algorithms',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Problem solving',
+        level: 6,
       },
     ],
+
   },
 ];
 
@@ -365,8 +343,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/AKT311209'},
+  {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/akhoitran09/'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
