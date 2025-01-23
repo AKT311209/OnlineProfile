@@ -19,11 +19,7 @@ const Footer: FC = memo(() => (
       <div className="flex gap-x-4 text-neutral-500">
         <Socials />
       </div>
-      <a
-        className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
-        href="https://reactresume.com">
-      </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} AKT311209</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} <a href='https://github.com/AKT311209'>AKT311209</a></span>
     </div>
   </div>
 ));
