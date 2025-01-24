@@ -70,11 +70,6 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       As a highly <strong className="text-stone-100">motivated</strong> and <strong className="text-stone-100">driven</strong> student, I am dedicated to leveraging <strong className="text-stone-100">technology</strong> to make a positive <strong className="text-stone-100">impact</strong> on the world. I am committed to <strong className="text-stone-100">continuous learning</strong> and actively pursue personal projects that align with my passions to further this objective.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
-      </p>
     </>
   ),
   actions: [],
@@ -258,16 +253,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2020 - 2024',
+    location: 'Marie Curie Secondary School',
+    title: 'Secondary School',
+    content: <p>My time at Marie Curie School provided me with a strong foundation in academics and instilled in me a lifelong love of learning. The dedicated faculty fostered a supportive and challenging environment that encouraged intellectual curiosity and critical thinking. Through rigorous coursework and engaging extracurricular activities, I developed essential skills that have been instrumental in my continued academic and professional success.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2024 - 2027',
+    location: 'Nguyen Hue High School',
+    title: 'High School',
+    content: <p>Nguyen Hue High School provides a supportive environment that fosters intellectual growth and personal development. I value the opportunity to connect with like-minded peers, which allows me to enhance my skills and knowledge more effectively. This enriching experience equips me with the necessary tools and motivation to pursue my future career goals.</p>,
   },
 ];
 
