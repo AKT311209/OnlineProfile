@@ -80,7 +80,6 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Placeholder text about yourself. This is a good spot to talk about your background, experience, and what you're looking to do next. You can also mention some of your hobbies and interests here.`,
   aboutItems: [
     {label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon},
     {label: 'DOB', text: '31-12-2009', Icon: CalendarIcon},
