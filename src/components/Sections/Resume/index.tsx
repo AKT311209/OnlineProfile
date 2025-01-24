@@ -16,6 +16,7 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Work">
+          <p className="pb-8">I am currently a full-time student, but I am actively engaged in self-development and skill-building to prepare for my future career.</p>
           {experience.map((item, index) => (
             <TimelineItem item={item} key={`${item.title}-${index}`} />
           ))}
