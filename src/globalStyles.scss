@@ -49,3 +49,17 @@ th {
 th {
   font-weight: 600;
 }
+
+@keyframes fillBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--percentage);
+  }
+}
+
+.skill-bar {
+  width: 0;
+  animation: fillBar 2s forwards;
+}
