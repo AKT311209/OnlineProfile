@@ -6,6 +6,9 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import TelegramIcon from '../components/Icon/TelegramIcon';
+import PhoneIcon from '../components/Icon/PhoneIcon';
+import EmailIcon from '../components/Icon/EmailIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -34,6 +37,7 @@ import {
   TimelineItem,
 } from './dataDef';
 import FacebookIcon from '../components/Icon/FacebookIcon';
+import React from 'react';
 
 /**
  * Page meta data
@@ -68,7 +72,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      As a highly <strong className="text-stone-100">motivated</strong> and <strong className="text-stone-100">driven</strong> student, I am dedicated to leveraging <strong className="text-stone-100">technology</strong> to make a positive <strong className="text-stone-100">impact</strong> on the world. I am committed to <strong className="text-stone-100">continuous learning</strong> and actively pursue personal projects that align with my passions to further this objective.
+        As a highly <strong className="text-stone-100">motivated</strong> and <strong className="text-stone-100">driven</strong> student, I am dedicated to leveraging <strong className="text-stone-100">technology</strong> to make a positive <strong className="text-stone-100">impact</strong> on the world. I am committed to <strong className="text-stone-100">continuous learning</strong> and actively pursue personal projects that align with my passions to further this objective.
       </p>
     </>
   ),
@@ -81,11 +85,11 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   aboutItems: [
-    {label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon},
-    {label: 'DOB', text: '31-12-2009', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Vietnam', Icon: FlagIcon},
-    {label: 'Interests', text: 'Running, Swimming, Coding', Icon: SparklesIcon},
-    {label: 'Study', text: 'Nguyen Hue High School', Icon: AcademicCapIcon},
+    { label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon },
+    { label: 'DOB', text: '31-12-2009', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Vietnam', Icon: FlagIcon },
+    { label: 'Interests', text: 'Running, Swimming, Coding', Icon: SparklesIcon },
+    { label: 'Study', text: 'Nguyen Hue High School', Icon: AcademicCapIcon },
   ],
 };
 
@@ -349,6 +353,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/AKT311209'},
-  {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/akhoitran09/'},
+  { label: 'Phone', Icon: PhoneIcon, href: 'tel:+84822311209' },
+  { label: 'Email', Icon: EmailIcon, href: 'mailto:akhoitran09@gmail.com' },
+  { label: 'Telegram', Icon: TelegramIcon, href: 'https://t.me/akhoitran09' },
+  { label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/akhoitran09/' },
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/AKT311209' },
 ];
