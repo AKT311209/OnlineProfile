@@ -271,7 +271,7 @@ export const education: TimelineItem[] = [
     date: '2024 - 2027',
     location: 'Nguyen Hue High School',
     title: 'High School',
-    content: <p>Nguyen Hue High School provides a supportive environment that fosters intellectual growth and personal development. I value the opportunity to connect with like-minded peers, which allows me to enhance my skills and knowledge more effectively. This enriching experience equips me with the necessary tools and motivation to pursue my future career goals.</p>,
+    content: <p>Nguyen Hue High School offers a nurturing environment that promotes intellectual growth and personal development. I highly appreciate the opportunity to engage with like-minded peers, which enables me to refine my skills and deepen my knowledge more effectively. This enriching experience provides me with the essential tools and inspiration to achieve my future career aspirations.</p>,
   },
 ];
 
