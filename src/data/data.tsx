@@ -47,7 +47,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Gallery: 'gallery',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -183,27 +183,27 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Url2Md',
+    description: 'Web application to convert URL and HTML to Markdown',
+    url: 'https://github.com/AKT311209/url2md',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'GeminiAPI',
+    description: 'A Nodejs application to use Gemini API',
+    url: 'https://github.com/AKT311209/GeminiAPI',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'SudokuSolver',
+    description: 'Python-based Sodoku Solver',
+    url: 'https://github.com/AKT311209/SodokuSolver',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Blackjackgame',
+    description: 'A simple Blackjack game written in Python',
+    url: 'https://github.com/AKT311209/Blackjackgame',
     image: porfolioImage4,
   },
 ];
