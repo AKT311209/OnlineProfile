@@ -3,7 +3,7 @@ import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useSt
 
 import {isApple, isMobile} from '../../config';
 import {SectionId, testimonial} from '../../data/data';
-import {Testimonial} from '../../data/dataDef';
+import type {Testimonial} from '../../data/dataDef';
 import useInterval from '../../hooks/useInterval';
 import useWindow from '../../hooks/useWindow';
 import QuoteIcon from '../Icon/QuoteIcon';
@@ -62,7 +62,7 @@ const Testimonials: FC = memo(() => {
     setScrollValue(event.currentTarget.scrollLeft);
   }, []);
 
-  useInterval(next, 10000);
+  useInterval(next, 38000);
 
   // If no testimonials, don't render the section
   if (!testimonials.length) {
