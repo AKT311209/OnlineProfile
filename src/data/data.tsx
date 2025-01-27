@@ -32,6 +32,7 @@ import {
 import FacebookIcon from '../components/Icon/FacebookIcon';
 import React from 'react';
 
+
 /**
  * Page meta data
  */
@@ -260,7 +261,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Luong Minh Anh - Friend at Secondary School and High School',
       text: 'Anh Khoi is someone I admire for his unique character that is difficult to find in teenagers nowadays. He is an individual who embodies seriousness, discipline, and a strong commitment to collective well-being while always seeking opportunities to grow personally.\nAs Khoi’s schoolmate for almost 5 years, his approach to studying is truly inspiring. Whether it’s meeting deadlines, managing tasks or performing on papers, Khoi demonstrates dedication and consistency. Furthermore, his ability to prioritize collective responsibility is truly what sets him apart in this generation. He understands the importance of working collaboratively and always makes sure to contribute to the success of the whole team. Finally, Khoi never forgets his long-term goal, which is to push himself and become the better version everyday. His focus on self improvement is evident in his efforts to expand knowledge, maintaining healthy lifestyle, practicing mental wellness as well as stepping outside his comfort zone.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      image: 'https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg',
     },
     {
       name: 'Nguyen Minh Linh Dan - Friend at Secondary School and High School',
