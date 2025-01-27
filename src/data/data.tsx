@@ -258,13 +258,13 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Luong Minh Anh - Friend at Secondary School and High School',
+      text: 'Anh Khoi is someone I admire for his unique character that is difficult to find in teenagers nowadays. He is an individual who embodies seriousness, discipline, and a strong commitment to collective well-being while always seeking opportunities to grow personally.\nAs Khôi’s schoolmate for almost 5 years, his approach to studying is truly inspiring. Whether it’s meeting deadlines, managing tasks or performing on papers, Khôi demonstrates dedication and consistency. Furthermore, his ability to prioritize collective responsibility is truly what sets him apart in this generation. He understands the importance of working collaboratively and always makes sure to contribute to the success of the whole team. Finally, Khôi never forgets his long-term goal, which is to push himself and become the better version everyday. His focus on self improvement is evident in his efforts to expand knowledge, maintaining healthy lifestyle, practicing mental wellness as well as stepping outside his comfort zone.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Nguyen Minh Linh Dan - Friend at Secondary School and High School',
+      text: 'Khoi is someone who is truly a pleasure to work with. He consistently demonstrates exceptional performance on tasks, accompanied with remarkable problem-solving skills, as well as an ability to collaborate effectively with others. Under significant responsibilities, whether working as a member of a team or as a leader, he brings a positive attitude and a high level of professionalism, ensuring compliance and constructiveness across all aspects of task delivery. His reliability and dedication make him a vital asset in any work environment.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
