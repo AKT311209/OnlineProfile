@@ -20,7 +20,7 @@ import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
-  ContactType,
+  // ContactType,
   Hero,
   HomepageMeta,
   PortfolioItem,
