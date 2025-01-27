@@ -123,7 +123,7 @@ const Testimonial: FC<{ testimonial: Testimonial; isActive: boolean }> = memo(
         isActive ? 'opacity-100' : 'opacity-0',
       )}>
       {image ? (
-        <div className="relative h-14 w-14 shrink-0 sm:h-16 sm:w-16">
+        <div className="relative h-18 w-18 shrink-0 sm:h-20 sm:w-20">
           <QuoteIcon className="absolute -left-2 -top-2 h-4 w-4 stroke-black text-white" />
           <a href={image} target="_blank" rel="noopener noreferrer">
             <img className="h-full w-full rounded-full object-cover" src={image} />
