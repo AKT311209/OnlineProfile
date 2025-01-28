@@ -24,13 +24,15 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
   const skillBarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const skillBarNode = skillBarRef.current;
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            if (skillBarRef.current) {
-              skillBarRef.current.style.setProperty('--percentage', `${percentage}%`);
-              skillBarRef.current.classList.add('skill-bar');
+            if (skillBarNode) {
+              skillBarNode.style.setProperty('--percentage', `${percentage}%`);
+              skillBarNode.classList.add('skill-bar');
             }
           }
         });
@@ -38,13 +40,13 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
       {threshold: 0.1}
     );
 
-    if (skillBarRef.current) {
-      observer.observe(skillBarRef.current);
+    if (skillBarNode) {
+      observer.observe(skillBarNode);
     }
 
     return () => {
-      if (skillBarRef.current) {
-        observer.unobserve(skillBarRef.current);
+      if (skillBarNode) {
+        observer.unobserve(skillBarNode);
       }
     };
   }, [percentage]);
@@ -53,7 +55,12 @@ export const Skill: FC<{skill: SkillType}> = memo(({skill}) => {
     <div className="flex flex-col">
       <span className="ml-2 text-sm font-medium">{name}</span>
       <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
-        <div ref={skillBarRef} className={`h-full rounded-full ${color}`} />
+        <div
+          ref={skillBarRef}
+          className={`h-full rounded-full ${color}`}
+          aria-label="Skill Bar"
+          role="progressbar"
+        />
       </div>
     </div>
   );
