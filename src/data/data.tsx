@@ -277,6 +277,11 @@ export const testimonial: TestimonialSection = {
       name: 'Le Diep Chi - Classmate at High School',
       text: 'Khoi is mature and composed beyond his years. From our first meeting, his polished attire-a suit and neatly pressed shirt-left a lasting impression of his discipline. Always punctual and meticulous, he exemplifies professionalism in even the smallest details. What stands out most is Khoi\'s disciplined and healthy lifestyle, a rarity among young people today. He maintains a routine of sleeping early, waking up early, and regularly running. His passion for running often leads him to participate in local marathons, showcasing his commitment to both fitness and personal growth. Academically, Khoi shines with his passion for computer science, dedicating himself to mastering programming. His enthusiasm drives him to improve daily, and his teamwork skills elevate any group he joins. With a strong sense of responsibility, Khoi consistently completes tasks with excellence, helping his team succeed. Khoi is someone I deeply admire for his perseverance, disciplined lifestyle, and unwavering commitment to self-improvement. He inspires me to strive for the same level of dedication and excellence in my own life.',
       image: '/lediepchi.jpg',
+    },
+    {
+      name: 'Nguyen Chu Thanh - Classmate at Secondary School',
+      text: 'Khoi is a friend I\'ve known since middle school, and he\'s one of the most disciplined people I know. His lifestyle is pretty impressive - he wakes up early, takes morning walks, stays away from junk food, and always keeps his mind clear. It\'s really inspiring because not everyone can stick to such habits. What I admire most about him is his sharp mind. He\'s super logical, great at math, and really good at thinking critically. He doesn\'t just argue to win - he digs into issues and looks at things from different angles. Every conversation with him feels like I\'m learning something new. On top of that, he\'s been a huge help with my exam prep. He\'s patient and knows how to explain things in a way that makes them easier to understand. Thanks to him, I\'ve definitely improved in my studies. To me, Khoi isn\'t only really smart but also dedicated, kind, and full of wisdom. I truly look up to him for that.',
+      image: '/nguyenchuthanh.jpg',      
     }
   ],
 };
