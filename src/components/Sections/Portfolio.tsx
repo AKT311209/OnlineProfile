@@ -9,9 +9,9 @@ import {PortfolioItem} from '../../data/dataDef';
 import useDetectOutsideClick from '../../hooks/useDetectOutsideClick';
 import Section from '../Layout/Section';
 
-const Portfolio: FC = memo(() => {
+const Gallery: FC = memo(() => {
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
+    <Section className="bg-neutral-800" sectionId={SectionId.Gallery}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
         <div className=" w-full columns-2 md:columns-3 lg:columns-4">
@@ -35,8 +35,8 @@ const Portfolio: FC = memo(() => {
   );
 });
 
-Portfolio.displayName = 'Portfolio';
-export default Portfolio;
+Gallery.displayName = 'Gallery';
+export default Gallery;
 
 const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
   const [mobile, setMobile] = useState(false);
