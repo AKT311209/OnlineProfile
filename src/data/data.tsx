@@ -282,6 +282,11 @@ export const testimonial: TestimonialSection = {
       name: 'Nguyen Chu Thanh - Classmate at Secondary School',
       text: 'Khoi is a friend I\'ve known since middle school, and he\'s one of the most disciplined people I know. His lifestyle is pretty impressive - he wakes up early, takes morning walks, stays away from junk food, and always keeps his mind clear. It\'s really inspiring because not everyone can stick to such habits. What I admire most about him is his sharp mind. He\'s super logical, great at math, and really good at thinking critically. He doesn\'t just argue to win - he digs into issues and looks at things from different angles. Every conversation with him feels like I\'m learning something new. On top of that, he\'s been a huge help with my exam prep. He\'s patient and knows how to explain things in a way that makes them easier to understand. Thanks to him, I\'ve definitely improved in my studies. To me, Khoi isn\'t only really smart but also dedicated, kind, and full of wisdom. I truly look up to him for that.',
       image: '/nguyenchuthanh.jpg',      
+    },
+    {
+      name: 'Tran Minh Anh - Classmate at Secondary School',
+      text: 'If I were to choose three adjectives to describe Khoi, they would be: curious, dedicated, and disciplined. To me, these three words almost entirely encapsulate who Khoi is as a person. Khoi has been, and continues to be, a source of inspiration through his intelligence, confidence, effort, and passion. His mindset has always left a strong impression on me; I\'ve learned from it, and the more I\'ve come to understand it, the more I\'ve been in awe. On that particular afternoon, when Khoi shared his perspective on life, it subtly but significantly shifted my own way of thinking. It opened up a new viewpoint on life for me, one that continues to serve as a motivation to this day. Khoi is someone you can always rely on and a friend worth keeping close. At first glance, people might find him a bit reserved, but in reality, he is deeply thoughtful. Without being overly sentimental, he exudes sincerity. For this reason, I, along with everyone who has had the chance to interact with him, continue to admire and cherish Khoi.',
+      image: '/tranminhanh.jpg',
     }
   ],
 };
