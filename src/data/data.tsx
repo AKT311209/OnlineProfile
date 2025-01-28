@@ -266,13 +266,18 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Nguyen Minh Linh Dan - Friend at Secondary School and High School',
       text: 'Khoi is someone who is truly a pleasure to work with. He consistently demonstrates exceptional performance on tasks, accompanied with remarkable problem-solving skills, as well as an ability to collaborate effectively with others. Under significant responsibilities, whether working as a member of a team or as a leader, he brings a positive attitude and a high level of professionalism, ensuring compliance and constructiveness across all aspects of task delivery. His reliability and dedication make him a vital asset in any work environment.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      image: '/nguyenminhlinhdan.jpg',
     },
     {
       name: 'Le Vu Dang Tien - Classmate at High School',
       text: 'Khoi is a composed and mature individual, yet approachable and friendly with his peers. As class monitor, he is patient, attentive, and always ready to assist others, earning their trust through his strong sense of responsibility. His passion for learning is evident in his diligence and curiosity. Khoi proactively seeks knowledge from books and online resources, gradually building an impressive depth of understanding that makes him a living encyclopedia. His self-directed approach and love for learning are the foundations of his academic success. Khoi’s leadership skills are equally remarkable. Decisive yet open to others\' opinions, he ensures effective decision-making while fostering collaboration. His creativity shines in organizing class activities, consistently surprising and engaging his peers. He empowers others to excel, believing that great leadership is about understanding and building strong, cohesive teams. In communication, Khoi is polite, respectful, and creates a positive environment through sincerity and cooperation. No matter the situation, he remains calm, optimistic, and ready to help. With these qualities, Khoi is a trusted friend and a responsible leader.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      image: '/levudangtien.jpg',
     },
+    {
+      name: 'Le Diep Chi - Classmate at High School',
+      text: 'Khoi is mature and composed beyond his years. From our first meeting, his polished attire-a suit and neatly pressed shirt-left a lasting impression of his discipline. Always punctual and meticulous, he exemplifies professionalism in even the smallest details. What stands out most is Khoi\'s disciplined and healthy lifestyle, a rarity among young people today. He maintains a routine of sleeping early, waking up early, and regularly running. His passion for running often leads him to participate in local marathons, showcasing his commitment to both fitness and personal growth. Academically, Khoi shines with his passion for computer science, dedicating himself to mastering programming. His enthusiasm drives him to improve daily, and his teamwork skills elevate any group he joins. With a strong sense of responsibility, Khoi consistently completes tasks with excellence, helping his team succeed. Khoi is someone I deeply admire for his perseverance, disciplined lifestyle, and unwavering commitment to self-improvement. He inspires me to strive for the same level of dedication and excellence in my own life.',
+      image: '/lediepchi.jpg',
+    }
   ],
 };
 
