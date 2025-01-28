@@ -132,7 +132,7 @@ const Testimonial: FC<{ testimonial: Testimonial; isActive: boolean }> = memo(
       ) : (
         <QuoteIcon className="h-5 w-5 shrink-0 text-white sm:h-8 sm:w-8" />
       )}
-      <div className="flex flex-col gap-y-4">
+      <div className="flex flex-col gap-y-4 overflow-y-auto">
         <p className="prose prose-sm font-medium italic text-white sm:prose-base">{text}</p>
         <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">-- {name}</p>
       </div>
