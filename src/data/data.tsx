@@ -156,12 +156,12 @@ export const skills: SkillGroup[] = [
     name: 'Life skills',
     skills: [
       {
-        name: 'Communication',
+        name: 'Communication / Interpersonal skills',
         level: 7,
         color: 'bg-orange-400',
       },
       {
-        name: 'Teamwork',
+        name: 'Teamwork / Leadership',
         level: 9,
         color: 'bg-green-400',
       },
@@ -175,6 +175,16 @@ export const skills: SkillGroup[] = [
         level: 7,
         color: 'bg-orange-400',
       },
+      {
+        name: 'Discipline',
+        level: 8,
+        color: 'bg-blue-400',
+      },
+      {
+        name: 'Adaptability',
+        level: 6,
+        color: 'bg-orange-400',
+      }
     ],
   },
 ];
