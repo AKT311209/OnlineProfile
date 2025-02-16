@@ -37,15 +37,11 @@ OnlineProfile is a web application built with Next.js and TypeScript. It serves 
     ```
 
 ### Running the Application
-1. Compile the TypeScript files:
-    ```bash
-    yarn compile
-    ```
-2. Start the development server:
+1. Start the development server:
     ```bash
     yarn dev
     ```
-3. Open your browser and visit `http://localhost:3000`.
+2. Open your browser and visit `http://localhost:3000`.
 
 ### Building for Production
 1. Build the application:
