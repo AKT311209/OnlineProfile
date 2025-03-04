@@ -7,20 +7,20 @@ module.exports = {
       loc: path,
       changefreq: config.changefreq,
       priority: path === '/' ? 1 : config.priority,
-      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
-    };
+      lastmod: config.autoLastmod ? new Date().toISOString() : undefined
+    }
   },
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [
       {
         userAgent: '*',
-        allow: '/',
+        allow: '/'
       },
       {
         userAgent: '*',
-        disallow: ['/404', '/500'],
-      },
-    ],
-  },
-};
+        disallow: ['/404', '/500']
+      }
+    ]
+  }
+}
