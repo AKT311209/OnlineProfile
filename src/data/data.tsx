@@ -7,7 +7,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 import TelegramIcon from '../components/Icon/TelegramIcon';
-import PhoneIcon from '../components/Icon/PhoneIcon';
 import EmailIcon from '../components/Icon/EmailIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import heroImage from '../images/background.jpg';
@@ -316,7 +315,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  { label: 'Phone', Icon: PhoneIcon, href: 'tel:+84822311209' },
   { label: 'Email', Icon: EmailIcon, href: 'mailto:akhoitran09@gmail.com' },
   { label: 'Telegram', Icon: TelegramIcon, href: 'https://t.me/akhoitran09' },
   { label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/akhoitran09/' },
