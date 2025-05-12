@@ -81,7 +81,7 @@ export const aboutData: About = {
     { label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon },
     { label: 'DOB', text: '31-12-2009', Icon: CalendarIcon },
     { label: 'Nationality', text: 'Vietnam', Icon: FlagIcon },
-    { label: 'Interests', text: 'Programming, Running, Swimming', Icon: SparklesIcon },
+    { label: 'Interests', text: 'Programming, Reading, Running, Swimming', Icon: SparklesIcon },
     { label: 'Study', text: 'Nguyen Hue High School', Icon: AcademicCapIcon },
   ],
 };
