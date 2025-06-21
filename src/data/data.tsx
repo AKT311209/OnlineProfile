@@ -13,7 +13,7 @@ import heroImage from '../images/background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -199,9 +199,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage1,
   },
   {
-    title: 'GeminiAPI',
-    description: 'A Nodejs application to use Gemini API',
-    url: 'https://github.com/AKT311209/GeminiAPI',
+    title: 'AnonyConnect',
+    description: 'A web application to connect with people anonymously',
+    url: 'https://github.com/AKT311209/AnonyConnect',
     image: porfolioImage2,
   },
   {
@@ -211,9 +211,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'Blackjackgame',
-    description: 'A simple Blackjack game written in Python',
-    url: 'https://github.com/AKT311209/Blackjackgame',
+    title: 'Sheet2Mail',
+    description: 'A MailMerge application to send emails from Google Sheets',
+    url: 'https://github.com/AKT311209/Sheet2Mail',
     image: porfolioImage4,
   },
 ];

@@ -1,5 +1,5 @@
 import {ChevronDownIcon} from '@heroicons/react/24/outline';
-import Typical from 'react-typical';
+import {Typewriter} from 'react-simple-typewriter';
 import Image from 'next/image';
 import {FC, memo} from 'react';
 
@@ -23,32 +23,31 @@ const Hero: FC = memo(() => {
         <div className="z-10 max-w-screen-lg px-4 lg:px-0">
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">
-              <Typical
-                steps={[
-                  '', 1000,
-                  'H', 100, 'He', 100, 'Hel', 100, 'Hell', 100, 'Hello', 100,
-                  'Hello,', 100, 'Hello, I', 100, 'Hello, I am', 100,
-                  'Hello, I am T', 100, 'Hello, I am Tr', 100, 'Hello, I am Tra', 100,
-                  'Hello, I am Tran', 100, 'Hello, I am Tran A', 100, 'Hello, I am Tran An', 100,
-                  'Hello, I am Tran Anh', 100, 'Hello, I am Tran Anh K', 100,
-                  'Hello, I am Tran Anh Kh', 100, 'Hello, I am Tran Anh Kho', 100,
-                  'Hello, I am Tran Anh Khoi.', 3000,
-                  // reverse
-                  'Hello, I am Tran Anh Kho', 100, 'Hello, I am Tran Anh Kh', 100,
-                  'Hello, I am Tran Anh K', 100, 'Hello, I am Tran Anh', 100,
-                  'Hello, I am Tran An', 100, 'Hello, I am Tran A', 100,
-                  'Hello, I am Tran', 100, 'Hello, I am Tra', 100,
-                  'Hello, I am Tr', 100, 'Hello, I am T', 100,
-                  'Hello, I am', 100, 'Hello, I', 100, 'Hello,', 100,
-                  'Hello', 100, 'Hell', 100, 'Hel', 100, 'He', 100, 'H', 100, '', 1000
-                ]}
-                loop={Infinity}
-                wrapper="span"
-              />
+              <span>
+                <Typewriter
+                  cursor
+                  cursorStyle="|"
+                  delaySpeed={4000}
+                  deleteSpeed={50}
+                  loop={0}
+                  words={['Hello, I am Tran Anh Khoi.']}
+                  typeSpeed={100}
+                />
+              </span>
             </h1>
             {description}
-            <div className="flex gap-x-4 text-neutral-100">
-              <Socials />
+            <div className="flex flex-col items-center gap-y-2 w-full">
+              <div className="flex gap-x-4 text-neutral-100">
+                <Socials />
+              </div>
+              <a
+                href="https://contact.khoi.io.vn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white text-base underline hover:text-blue-300 transition-colors duration-200 mt-1"
+              >
+                Contact me anonymously
+              </a>
             </div>
           </div>
         </div>
