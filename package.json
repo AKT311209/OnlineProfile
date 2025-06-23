@@ -9,11 +9,15 @@
     "dev": "yarn compile && yarn next dev",
     "lint": "yarn run -T prettier --write './src/**/*.{js,jsx,json,ts,tsx}' && eslint './src/**/*.{js,jsx,ts,tsx}' --fix --max-warnings=0",
     "start": "yarn next start",
-    "sitemap": "yarn next-sitemap"
+    "sitemap": "yarn next-sitemap",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
+    "@opennextjs/cloudflare": "^1.3.1",
     "autoprefixer": "10.4.21",
     "classnames": "^2.3.2",
     "next": "^14.2.26",
@@ -57,7 +61,8 @@
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^4.0.2",
     "tailwindcss": "^3.3.3",
-    "typescript": "5.3.2"
+    "typescript": "5.3.2",
+    "wrangler": "^4.20.5"
   },
   "resolutions": {
     "autoprefixer": "10.4.5"
