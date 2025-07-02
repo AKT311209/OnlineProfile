@@ -63,11 +63,12 @@ export const heroData: Hero = {
   imageSrc: heroImage,
   name: `Hello, I'm Tran Anh Khoi.`,
   description: (
-    <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        As a highly <strong className="text-stone-100">motivated</strong> and <strong className="text-stone-100">driven</strong> student, I am dedicated to leveraging <strong className="text-stone-100">technology</strong> to make a positive <strong className="text-stone-100">impact</strong> on the world. I am committed to <strong className="text-stone-100">continuous learning</strong> and actively pursue personal projects that align with my passions to further this objective.
-      </p>
-    </>
+<>
+  <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+    I see myself not as a fixed identity, but as a <strong className="text-stone-100">work in progress</strong>—an evolving <strong className="text-stone-100">journey of learning</strong>, reflection, and growth. I’m driven by the question <em>“Who am I?”</em> and approach life as an ongoing exploration to better understand myself, others, and the world around me.
+  </p>
+</>
+
   ),
   actions: [],
 };
