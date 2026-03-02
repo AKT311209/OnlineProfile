@@ -1,4 +1,4 @@
-import {FC, memo, useCallback, useMemo, useState} from 'react';
+import {FC, memo, useCallback, useState} from 'react';
 
 interface FormData {
   name: string;
@@ -6,35 +6,22 @@ interface FormData {
   message: string;
 }
 
-const ContactForm: FC = memo(() => {
-  const defaultData = useMemo(
-    () => ({
-      name: '',
-      email: '',
-      message: '',
-    }),
-    [],
-  );
+const defaultData: FormData = {name: '', email: '', message: ''};
 
+const ContactForm: FC = memo(() => {
   const [data, setData] = useState<FormData>(defaultData);
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
       const {name, value} = event.target;
-
-      const fieldData: Partial<FormData> = {[name]: value};
-
-      setData({...data, ...fieldData});
+      setData(prev => ({...prev, [name]: value}));
     },
-    [data],
+    [],
   );
 
   const handleSendMessage = useCallback(
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
-      /**
-       * This is a good starting point to wire up your form submission logic
-       * */
       console.log('Data to send: ', data);
     },
     [data],

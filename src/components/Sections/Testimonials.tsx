@@ -132,4 +132,6 @@ const Testimonial: FC<{ testimonial: Testimonial; isActive: boolean }> = memo(
   ),
 );
 
+Testimonial.displayName = 'Testimonial';
+
 export default Testimonials;

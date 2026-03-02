@@ -9,8 +9,8 @@ module.exports = {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['tailwind']
-      }
-    ]
-  }
-}
+        ignoreAtRules: ['tailwind', 'plugin', 'config', 'theme', 'source', 'utility', 'variant'],
+      },
+    ],
+  },
+};
