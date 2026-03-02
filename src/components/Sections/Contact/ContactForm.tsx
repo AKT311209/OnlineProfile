@@ -1,4 +1,4 @@
-import {FC, memo, useCallback, useState} from 'react';
+import { FC, memo, useCallback, useState } from 'react';
 
 interface FormData {
   name: string;
@@ -6,15 +6,15 @@ interface FormData {
   message: string;
 }
 
-const defaultData: FormData = {name: '', email: '', message: ''};
+const defaultData: FormData = { name: '', email: '', message: '' };
 
 const ContactForm: FC = memo(() => {
   const [data, setData] = useState<FormData>(defaultData);
 
   const onChange = useCallback(
     <T extends HTMLInputElement | HTMLTextAreaElement>(event: React.ChangeEvent<T>): void => {
-      const {name, value} = event.target;
-      setData(prev => ({...prev, [name]: value}));
+      const { name, value } = event.target;
+      setData(prev => ({ ...prev, [name]: value }));
     },
     [],
   );
