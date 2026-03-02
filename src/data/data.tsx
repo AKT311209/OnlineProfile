@@ -1,9 +1,9 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
+  SunIcon,
 } from '@heroicons/react/24/outline';
 
 import TelegramIcon from '../components/Icon/TelegramIcon';
@@ -80,7 +80,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   aboutItems: [
     { label: 'Location', text: 'Hanoi, Vietnam', Icon: MapIcon },
-    { label: 'DOB', text: '31-12-2009', Icon: CalendarIcon },
+    { label: 'Zodiac', text: 'Capricorn', Icon: SunIcon },
     { label: 'Nationality', text: 'Vietnam', Icon: FlagIcon },
     { label: 'Interests', text: 'Programming, Reading, Running, Swimming', Icon: SparklesIcon },
     { label: 'Study', text: 'Nguyen Hue High School', Icon: AcademicCapIcon },
@@ -291,7 +291,7 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Nguyen Chu Thanh - Classmate at Secondary School',
       text: 'Khoi is a friend I\'ve known since middle school, and he\'s one of the most disciplined people I know. His lifestyle is pretty impressive - he wakes up early, takes morning walks, stays away from junk food, and always keeps his mind clear. It\'s really inspiring because not everyone can stick to such habits. What I admire most about him is his sharp mind. He\'s super logical, great at math, and really good at thinking critically. He doesn\'t just argue to win - he digs into issues and looks at things from different angles. Every conversation with him feels like I\'m learning something new. On top of that, he\'s been a huge help with my exam prep. He\'s patient and knows how to explain things in a way that makes them easier to understand. Thanks to him, I\'ve definitely improved in my studies. To me, Khoi isn\'t only really smart but also dedicated, kind, and full of wisdom. I truly look up to him for that.',
-      image: '/nguyenchuthanh.jpg',      
+      image: '/nguyenchuthanh.jpg',
     },
     {
       name: 'Tran Minh Anh - Classmate at Secondary School',
